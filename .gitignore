@@ -1,0 +1,70 @@
+
+# ==============================
+# PYTHON
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# ==============================
+# VIRTUAL ENVIRONMENTS
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# ENVIRONMENT VARIABLES & SECRETS
+# ==============================
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# API keys and credentials
+secrets/
+credentials.json
+token.json
+
+# ==============================
+# DATABASE
+# ==============================
+*.db-shm
+*.db-wal
+
+# ==============================
+# LOGS
+# ==============================
+*.log
+
+# ==============================
+# IDE & EDITOR
+# ==============================
+.vscode/
+.idea/
+*.swp
+
+# ==============================
+# OPERATING SYSTEM
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# TESTING & COVERAGE
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# BUILD FILES
+# ==============================
+build/
+dist/
+*.egg-info/
